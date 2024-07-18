@@ -1,0 +1,86 @@
+
+h2 :hover{
+    color: rgb(69, 19, 235);
+}
+ .subm:active{
+   background-color: rgb(196, 196, 196); 
+}
+*{    
+    margin: 0;
+    padding: 0;
+   
+}
+nav ul li a{
+     color: antiquewhite;
+     text-decoration: none;
+     font-size: 18px;
+     position: relative;
+    
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #e6f203;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}body{
+    background-color: black;
+    box-sizing: border-box;
+   
+   
+  
+}img:hover{
+    border: 2px solid rgb(4, 51, 90);
+    border-top: 2px solid rgb(108, 6, 6);
+    border-left: 2px solid rgb(124, 6, 124);
+    border-right: 2px solid rgb(17, 77, 100);
+    border-bottom: 2px solid rgb(30, 4, 116);
+    box-shadow: 4px rgb(4, 249, 102),skyblue;
+}#contme{
+    position: relative;
+    bottom: 20px;
+
+}#abut{
+    
+    box-shadow: skyblue,rgb(29, 249, 4);
+  
+}.nnnn{
+    position:sticky;
+}.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(2px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background-color: transparent;
+    padding: 30px;
+    font-size:13px;
+    border-right: 10px;
+    border-radius:20px;
+    transition: background 0.55s, transform 0.5s;
+    box-shadow:1px 1px 20px  rgb(74, 66, 223),
+                1px 1px 40px  rgb(87, 66, 223);
+}.pic{
+    background-color: transparent;
+   
+    padding: 50px;
+    font-size:13px;
+    border-right: 10px;
+    border-radius:20px;
+    transition: background 0.55s, transform 0.5s;
+    box-shadow:1px 1px 20px  rgb(74, 66, 223),
+                1px 1px 40px  rgb(87, 66, 223);
+
+}
+  
+
+    
+
+ 
